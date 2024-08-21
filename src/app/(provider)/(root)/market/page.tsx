@@ -226,13 +226,8 @@ const MarketPage = () => {
                   <div className="w-full py-3 px-3 rounded-xl border border-solid border-secondary-50 bg-white md:bg-normal md:border-none md:p-0">
                     <Link href={`/market/${item.id}`} className="w-full">
                       <div className="w-full flex flex-col md:justify-center md:items-center md:flex-row md:pt-8 md:pb-10">
-<<<<<<< HEAD
-                        <div className="hidden md:flex justify-center items-center w-11 h-11 p-1 mr-12 bg-primary-20 text-label-light text-xs rounded-[8px]">
-                          <p>{item.id}</p>
-=======
                         <div className="hidden md:flex justify-center items-center w-11 h-9 p-1 mr-12 bg-primary-20 text-label-light text-xs rounded-[8px]">
                           {item.id}
->>>>>>> c008ae80b3b003c1e1fa2a65a07195741f31de3f
                         </div>
                         <div className="md:my-[2.5px] md:py-1 md:mr-4">
                           <div className="flex justify-between">
